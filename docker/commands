@@ -1,0 +1,48 @@
+##
+# Creating
+##
+
+# Build an image from a Dockerfile in local dir
+docker build .
+
+# Tag an image, with first three chars of image ID
+docker tag 779 sandbox
+
+
+##
+# Monitoring
+##
+
+# List images
+docker images
+
+# List containers [including non-running]
+docker ps [-a]
+
+
+##
+# Start container
+##
+
+# and detatch
+docker run -d sandbox
+
+# and attach, jump into bash
+docker run -it sandbox /bin/bash
+
+# with a name
+docker run -it --name somecontainer sandbox /bin/bash
+
+# and bind host port 80 to container 8080
+docker run -d --name somecontainer -p 80:8080 sandbox
+
+
+##
+# Tidying up
+##
+
+# Remove all images
+docker rmi $(docker images -q)
+
+# Remove all containers
+docker rm $(docker ps -aq)
