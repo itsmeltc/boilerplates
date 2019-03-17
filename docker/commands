@@ -24,8 +24,11 @@ docker ps [-a]
 # Start container
 ##
 
-# and detatch
-docker run -d sandbox
+# and detatch leaving an interactive terminal
+docker run -dit sandbox
+
+# access detached container with forked bash, no container doesn't die on exit
+docker exec -it <container ID> /bin/bash
 
 # and attach, jump into bash
 docker run -it sandbox /bin/bash
