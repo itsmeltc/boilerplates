@@ -119,6 +119,7 @@ zsh-autosuggetions |github.com/zsh-users/zsh-autosugge stions | |
 |Things 3 |App Store | |
 |Evernote |evernote.com/download |Set font to Mono Regular 14; Disable context |
 |Spotify |spotify.com/us/download | |
+|Disk Inventory X |derlien.com/downloads | |
 |MediaHuman Audio Converter |mediahuman.com/audio-converter |
 |Google Drive |drive.google.com | |
 |iStat Menus |bjango.com/mac/istatmenus | |
