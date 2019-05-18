@@ -72,6 +72,7 @@
 |virtualenvwrapper |pip3 install virtualenvwrapper | |
 |iTerm2 |iterm2.com | |
 |Enable blinking cursor, opacity, and opaque background colours |iTerm2 Preferences >> Profiles | |
+|Check silence bell |iTerm2 Preferences >> Profiles >> Default >> Terminal | |
 |Disable per-pane title bar and dim of inactive split panes |iTerm2 Preferences >> Appearance | |
 |Enable Natural Text Editing |iTerm2 Preferences > Profiles > Keys > Load Preset | |
 |Enable ⌘+Arrow shortcuts |iTerm2 Preferences > Keys > Key Mappings: ⌘+← 0x01; ⌘+→ 0x05 | |
