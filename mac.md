@@ -98,6 +98,7 @@ zsh-autosuggetions |github.com/zsh-users/zsh-autosugge stions | |
 |vim |brew install vim | |
 |watch |brew install watch | |
 |wget |brew install wget | |
+|rename |brew install rename | |
 |python |brew install python | |
 |python3 |brew install python3 | |
 |ruby |brew install ruby | |
