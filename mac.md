@@ -31,7 +31,7 @@
 |Hide battery status in menu bar |System Preferences >> Power Saver | |
 |Show home folder in Finder preferences |Finder Preferences >> Advanced | |
 |Show all filename extensions |Finder Preferences | |
-|Build locate database |sudo launchctl load -w /System/Library/LaunchDaemons/co m.apple.locate.plist | |
+|Build locate database |sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist | |
 |Prevent iPhone from auto-syncing with iTunes |iTunes Preferences >> Devices | |
 
 # Browser
@@ -78,7 +78,7 @@
 |Enable ⌘+Arrow shortcuts |iTerm2 Preferences > Keys > Key Mappings: ⌘+← 0x01; ⌘+→ 0x05 | |
 |zsh |brew install zsh | |
 |oh-my-zsh |github.com/robbyrussell/oh-my-zsh | |
-zsh-autosuggetions |github.com/zsh-users/zsh-autosugge stions | |
+zsh-autosuggetions |github.com/zsh-users/zsh-autosuggestions | |
 |Meslo Powerline font |github.com/powerline/fonts |Set iTerm profile font to Meslo
 |archey |brew install archey | |
 |asciinema |brew install asciinema | |
@@ -92,6 +92,7 @@ zsh-autosuggetions |github.com/zsh-users/zsh-autosugge stions | |
 |iperf |brew install iperf | |
 |mtr |brew install mtr | |
 |nmap |brew install nmap | |
+|rsvg-convert |brew install rsvg-convert | |
 |p7zip |brew install p7zip | |
 |tmux |brew install tmux | |
 |tree |brew install tree | |
