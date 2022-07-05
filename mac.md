@@ -78,8 +78,9 @@
 |Enable ⌘+Arrow shortcuts |iTerm2 Preferences > Keys > Key Mappings: ⌘+← 0x01; ⌘+→ 0x05 | |
 |zsh |brew install zsh | |
 |oh-my-zsh |github.com/robbyrussell/oh-my-zsh | |
-zsh-autosuggetions |github.com/zsh-users/zsh-autosuggestions | |
-|Meslo Powerline font |github.com/powerline/fonts |Set iTerm profile font to Meslo
+|zsh-autosuggetions |github.com/zsh-users/zsh-autosuggestions | |
+|zsh-syntax-highlighting |github.com/zsh-users/zsh-syntax-highlighting | |
+|Meslo Powerline font |github.com/powerline/fonts |Set iTerm profile font to Meslo ||
 |archey |brew install archey | |
 |asciinema |brew install asciinema | |
 |ffmpeg |brew install ffmpeg | |
