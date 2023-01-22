@@ -7,7 +7,9 @@
 |Install all updates |About This Mac >> Software Update |Reboot and recheck until no more updates |
 |Turn on dock hiding |System Preferences >> Dock | |
 |Change computer hostname |System Preferences >> Sharing |Remove name/username |
-|Enable trackpad tap to click |System Preferences >> Trackpad | |
+|Enable trackpad tap to click |System Preferences >> Trackpad >> Point & Click | |
+|Enable trackpad two finger secondary click |System Preferences >> Trackpad >> Point & Click | |
+|Enable trackpad swipe between pages |System Preferences >> Trackpad >> More Gestures | |
 |Enable mouse secondary click |System Preferences >> Mouse | |
 |Enable mouse swipe gestures |System Preferences >> Mouse | |
 |Enable three finger drag |System Preferences >> Accessibility >> Mouse & Trackpad >> Trackpad Options | |
@@ -21,16 +23,19 @@
 |Set bottom left hot corner to start screen saver |System Preferences >> Desktop & Screen Saver | |
 |Set top left hot corner to Mission Control |System Preferences >> Desktop & Screen Saver | |
 |Under Language & Region, set first day of week to Monday |System Preferences >> Language & Region | |
+|Under Language & Region, set date formart to dd/mm/yyyy |System Preferences >> Language & Region | |
+|Under Language & Region, set number format to decimal point |System Preferences >> Language & Region | |
 |Add and set preferred language to English (United Kingdom) |System Preferences >> Language & Region |Keep "English" as secondary then reboot |
 |Disable Guest User account |System Preferences >> Users & Groups | |
 |Display login window as name and password |System Preferences >> Users & Groups | |
 |Set resolution to More Space |System Preferences >> Displays | |
-|Show volume button in menu bar |System Preferences >> Sound | |
-|Show Bluetooth button in menu bar |System Preferences >> Bluetooth | |
-|Hide date and time in menu bar |System Preferences >> Date & Time | |
-|Hide battery status in menu bar |System Preferences >> Power Saver | |
+|Show volume button in menu bar |System Preferences >> Control Centre | |
+|Show Bluetooth button in menu bar |System Preferences >> Control Centre | |
+|Set Time menu bar status to analogue |System Preferences >> Control Centre | |
+|Hide battery status in menu bar |System Preferences >> Control Centre | |
 |Show home folder in Finder preferences |Finder Preferences >> Advanced | |
 |Show all filename extensions |Finder Preferences | |
+|Remove Focus profiles and disable sharing across devices |System Preferences >> Focus | |
 |Build locate database |sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist | |
 |Prevent iPhone from auto-syncing with iTunes |iTunes Preferences >> Devices | |
 
@@ -53,11 +58,11 @@
 |uBlock Origin for Firefox |addons.mozilla.org/en-GB/firefox/addon/ublock-origin | |
 |Hangouts for Firefox |google.com/tools/dlpage/hangout | |
 |Chrome |google.co.uk/chrome/browser/desktop | |
-|Authy for Chrome |authy.com | |
+|Authy Desktop |authy.com | |
 
 # Dev
 
-|Step |Location |Notes |
+|Step |Source |Notes |
 |--- |--- |--- |
 |Xcode |App Store |sudo xcode-select --install |
 |Sublime |sublimetext.com |Apply license |
@@ -80,7 +85,8 @@
 |oh-my-zsh |github.com/robbyrussell/oh-my-zsh | |
 |zsh-autosuggetions |github.com/zsh-users/zsh-autosuggestions | |
 |zsh-syntax-highlighting |github.com/zsh-users/zsh-syntax-highlighting | |
-|Meslo Powerline font |github.com/powerline/fonts |Set iTerm profile font to Meslo ||
+|Meslo Powerline font |github.com/powerline/fonts |Set iTerm profile font to Meslo |
+|pyenv |brew install pyenv|github.com/pyenv/pyenv#installation |
 |archey |brew install archey | |
 |asciinema |brew install asciinema | |
 |ffmpeg |brew install ffmpeg | |
@@ -114,24 +120,28 @@
 |Wireshark |wireshark.org | |
 |Docker |hub.docker.com/editions/community/docker-ce-desktop-mac | |
 
-# Productivity
+# Other
 
-|Step |Location |Notes |
+|Step |Source |Notes |
 |--- |--- |--- |
 |Alfred |alfredapp.com |Set keyboard shortcut to ⌘+Space |
-|Franz |meetfranz.com | |
-|Things 3 |App Store | |
-|Evernote |evernote.com/download |Set font to Mono Regular 14; Disable context |
-|Spotify |spotify.com/us/download | |
+|Audacity |https://github.com/audacity/audacity/ | |
 |Disk Inventory X |derlien.com/downloads | |
-|MediaHuman Audio Converter |mediahuman.com/audio-converter |
+|Evernote |evernote.com/download |Set font to Mono Regular 14; Disable context |
+|Franz |meetfranz.com | |
+|Garmin Express |garmin.com/sv-SE/software/express/mac/ | |
+|get_iplayer |github.com/get-iplayer/get_iplayer | |
 |Google Drive |drive.google.com | |
-|iStat Menus |bjango.com/mac/istatmenus | |
-|Slate |github.com/jigish/slate |Config; enable Accessibility in Privacy preferences |
+|Handbrake |handbrake.fr/downloads.php | |
+|iStat Menus |files.bjango.com/istatmenus5/istatmenus5.32.zip | |
+|MediaHuman Audio Converter |mediahuman.com/audio-converter | |
+|Plex |plex.tv/media-server-downloads/#plex-app | |
+|Postman |postman.com/downloads/ | |
+|Slate |web.archive.org/web/20200814034452/http://slate.ninjamonkeysoftware.com/Slate.dmg |Config; enable Accessibility in Privacy preferences |
 |SnappyApp |App Store | |
+|Spotify |spotify.com/us/download | |
 |TeamViewer |teamviewer.com/en/download/mac | |
 |TftpServer |ww2.unime.it/flr/tftpserver | |
-|Forticlient |forticlient.com | |
-|HMA |vpn.hidemyass.com/vpncontrol/pages/download | |
-|Tor |torproject.org |Set security level to high |
-|Avira |avira.com | |
+|Things 3 |App Store | |
+|VLC |videolan.org/vlc/download-macosx.html | |
+|Zwift |zwift.com/eu/download | |
