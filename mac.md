@@ -5,37 +5,39 @@
 |Run through macOS installer | |Disable metrics and enable FileVault |
 |Note down FileVault decryption key | | |
 |Install all updates |About This Mac >> Software Update |Reboot and recheck until no more updates |
-|Turn on dock hiding |System Preferences >> Dock | |
-|Change computer hostname |System Preferences >> Sharing |Remove name/username |
-|Enable trackpad tap to click |System Preferences >> Trackpad >> Point & Click | |
-|Enable trackpad two finger secondary click |System Preferences >> Trackpad >> Point & Click | |
-|Enable trackpad swipe between pages |System Preferences >> Trackpad >> More Gestures | |
-|Enable mouse secondary click |System Preferences >> Mouse | |
-|Enable mouse swipe gestures |System Preferences >> Mouse | |
-|Enable three finger drag |System Preferences >> Accessibility >> Mouse & Trackpad >> Trackpad Options | |
-|Set mouse tracking speed to 8 (fast) |System Preferences >> Mouse | |
-|Set key repeat speed to 10 (fast) |System Preferences >> Keyboard | |
-|Set delay until repeat to 10 (short) |System Preferences >> Keyboard | |
-|Disable Spotlight keyboard shortcuts |System Preferences >> Keyboard |Used by Alfred later |
-|Enable Firewall |System Preferences >> Security |Enable stealth mode |
-|Set require password to immediately |System Preferences >> Security | |
-|Change screen saver start time to 1 minute |System Preferences >> Desktop & Screen Saver | |
-|Set bottom left hot corner to start screen saver |System Preferences >> Desktop & Screen Saver | |
-|Set top left hot corner to Mission Control |System Preferences >> Desktop & Screen Saver | |
-|Under Language & Region, set first day of week to Monday |System Preferences >> Language & Region | |
-|Under Language & Region, set date formart to dd/mm/yyyy |System Preferences >> Language & Region | |
-|Under Language & Region, set number format to decimal point |System Preferences >> Language & Region | |
-|Add and set preferred language to English (United Kingdom) |System Preferences >> Language & Region |Keep "English" as secondary then reboot |
-|Disable Guest User account |System Preferences >> Users & Groups | |
-|Display login window as name and password |System Preferences >> Users & Groups | |
-|Set resolution to More Space |System Preferences >> Displays | |
-|Show volume button in menu bar |System Preferences >> Control Centre | |
-|Show Bluetooth button in menu bar |System Preferences >> Control Centre | |
-|Set Time menu bar status to analogue |System Preferences >> Control Centre | |
-|Hide battery status in menu bar |System Preferences >> Control Centre | |
-|Show home folder in Finder preferences |Finder Preferences >> Advanced | |
-|Show all filename extensions |Finder Preferences | |
-|Remove Focus profiles and disable sharing across devices |System Preferences >> Focus | |
+|Turn on dock hiding |System Settings >> Dock | |
+|Change computer hostname |System Settings >> General |Remove name/username |
+|Enable trackpad tap to click |System Settings >> Trackpad >> Point & Click | |
+|Enable trackpad two finger secondary click |System Settings >> Trackpad >> Point & Click | |
+|Enable trackpad swipe between pages |System Settings >> Trackpad >> More Gestures | |
+|Enable mouse secondary click |System Settings >> Mouse | |
+|Enable mouse swipe gestures |System Settings >> Mouse | |
+|Enable three finger drag |System Settings >> Accessibility >> Pointer Control >> Mouse & Trackpad >> Trackpad Options | |
+|Set mouse tracking speed to 8 (fast) |System Settings >> Mouse | |
+|Set key repeat speed to 10 (fast) |System Settings >> Keyboard | |
+|Set delay until repeat to 10 (short) |System Settings >> Keyboard | |
+|Disable Spotlight keyboard shortcuts |System Settings >> Keyboard |Used by Alfred later |
+|Enable Firewall |System Settings >> Network |Enable stealth mode |
+|Set require password to immediately |System Settings >> Lock Screen | |
+|Change screen saver start time to 1 minute |System Settings >> Lock Screen | |
+|Set bottom left hot corner to start screen saver |System Settings >> Desktop & Dock >> Hot Corners | |
+|Set top left hot corner to Mission Control |System Settings >> Desktop & Dock >> Hot Corners | |
+|Set first day of week to Monday |System Settings >> Language & Region | |
+|Set date formart to dd/mm/yyyy |System Settings >> Language & Region | |
+|Set number format to decimal point |System Settings >> Language & Region | |
+|Add and set preferred language to English (United Kingdom) |System Settings >> Language & Region |Keep "English" as secondary then reboot |
+|Disable Guest User account |System Settings >> Users & Groups | |
+|Display login window as name and password |System Settings >> Lock Screen | |
+|Disable show user name and photo |System Settings >> Lock Screen | |
+|Set resolution to More Space |System Settings >> Displays | |
+|Always show volume button in menu bar |System Settings >> Control Centre | |
+|Show Bluetooth button in menu bar |System Settings >> Control Centre | |
+|Hide battery status in menu bar |System Settings >> Control Centre | |
+|Hide date, day of the week, and set time menu bar status to analogue |System Settings >> Control Centre | |
+|Remove Focus profiles and disable sharing across devices |System Settings >> Focus | |
+|Show home folder in Finder |Finder >> Settings | |
+|Show hard disks in Finder |Finder >> Settings | |
+|Show all filename extensions |Finder >> Settings >> Advanced | |
 |Build locate database |sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist | |
 |Prevent iPhone from auto-syncing with iTunes |iTunes Preferences >> Devices | |
 
@@ -58,7 +60,7 @@
 |uBlock Origin for Firefox |addons.mozilla.org/en-GB/firefox/addon/ublock-origin | |
 |Hangouts for Firefox |google.com/tools/dlpage/hangout | |
 |Chrome |google.co.uk/chrome/browser/desktop | |
-|Authy Desktop |authy.com | |
+|Authy for iPad |From backup | |
 
 # Dev
 
@@ -124,8 +126,10 @@
 
 |Step |Source |Notes |
 |--- |--- |--- |
+|Adobe Creative Cloud |creativecloud.adobe.com/apps/download/creative-cloud | |
 |Alfred |alfredapp.com |Set keyboard shortcut to ⌘+Space |
-|Audacity |https://github.com/audacity/audacity/ | |
+|Audacity |github.com/audacity/audacity/ | |
+|Audible |apps.apple.com/us/app/audible-audio-entertainment/id379693831 | |
 |Disk Inventory X |derlien.com/downloads | |
 |Evernote |evernote.com/download |Set font to Mono Regular 14; Disable context |
 |Franz |meetfranz.com | |
@@ -133,12 +137,14 @@
 |get_iplayer |github.com/get-iplayer/get_iplayer | |
 |Google Drive |drive.google.com | |
 |Handbrake |handbrake.fr/downloads.php | |
-|iStat Menus |files.bjango.com/istatmenus5/istatmenus5.32.zip | |
+|iStat Menus |files.bjango.com/istatmenus5/istatmenus5.32.zip |Or from backup |
+|Joplin |joplinapp.org/download | |
 |MediaHuman Audio Converter |mediahuman.com/audio-converter | |
 |Plex |plex.tv/media-server-downloads/#plex-app | |
+|PressReader |apps.apple.com/us/app/pressreader-news-magazines/id313904711 | |
 |Postman |postman.com/downloads/ | |
-|Slate |web.archive.org/web/20200814034452/http://slate.ninjamonkeysoftware.com/Slate.dmg |Config; enable Accessibility in Privacy preferences |
-|SnappyApp |App Store | |
+|Slate |web.archive.org/web/20200814034452/http://slate.ninjamonkeysoftware.com/Slate.dmg (or backup) |Config; enable Accessibility in Privacy preferences |
+|Snappy.app |App Store |Or from backup |
 |Spotify |spotify.com/us/download | |
 |TeamViewer |teamviewer.com/en/download/mac | |
 |TftpServer |ww2.unime.it/flr/tftpserver | |
