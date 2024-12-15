@@ -47,20 +47,26 @@
 |--- |--- |--- |
 |Firefox |mozilla.org/en-GB/firefox |Sync bookmarks with Firefox Account |
 |Enable bookmarks toolbar | | |
+|Open previous windows and tabs |Firefox Preferences >> General | |
+|Set homepage, new windows, and new tabs to Blank Page |Firefox Preferences >> Home | |
 |Disable Firefox Home Content |Firefox Preferences >> Home | |
 |Add search bar in toolbar |Firefox Preferences >> Search | |
 |Remove all search engines but Google |Firefox Preferences >> Search | |
 |Set Content Blocking to Strict |Firefox Preferences >> Privacy & Security | |
-|Enable Do Not Track |Firefox Preferences >> Privacy & Security | |
+|Tell websites not to sell my data and enable Do Not Track |Firefox Preferences >> Privacy & Security | |
 |Disable password management |Firefox Preferences >> Privacy & Security | |
+|Disable payment method autofill |Firefox Preferences >> Privacy & Security | |
 |Disable data collection |Firefox Preferences >> Privacy & Security | |
-|HTTPS Everywhere for Firefox |eff.org/https-everywhere | |
-|LastPass for Firefox |lastpass.com/lastpassffx | |
+|Enable HTTPS Only mode|Firefox Preferences >> Privacy & Security | |
+|DuckDuckGo Privacy Essentials |addons.mozilla.org/en-GB/firefox/addon/duckduckgo-for-firefox | |
+|Enhancer for YouTube |addons.mozilla.org/en-GB/firefox/addon/enhancer-for-youtube | |
+|Facebook Container |addons.mozilla.org/en-GB/firefox/addon/facebook-container | |
 |Privacy Badger for Firefox |eff.org/privacybadger | |
+|Tab Reloader (page auto refresh) |addons.mozilla.org/en-GB/firefox/addon/tab-reloader | |
+|Toucan |jointoucan.com | |
 |uBlock Origin for Firefox |addons.mozilla.org/en-GB/firefox/addon/ublock-origin | |
 |Hangouts for Firefox |google.com/tools/dlpage/hangout | |
 |Chrome |google.co.uk/chrome/browser/desktop | |
-|Authy for iPad |From backup | |
 
 # Dev
 
